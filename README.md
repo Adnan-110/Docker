@@ -117,17 +117,17 @@ docker run -v /home/verma/mysql-data:/var/lib/mysql  -e MYSQL_ROOT_PASSWORD=pass
 
 ### How to tag an imageName during build ?
 
-docker build -t docker.io/sanraman/cart:v1 .  
+docker build -t docker.io/adnan115/cart:v01 .  
 
 ### How to tag an existing image ?
 
-docker tag docker.io/sanraman/cart:v1 imageID
+docker tag docker.io/adnan115/cart:v01 imageID
 
 ### What are few of the best practices of DOCKER IMAGING
 
 ```
     * Size of the Docker Image has to be as minimal as possible 
-    * Securiy of the Images , it should zero to none vulnerabilites as per your organization standard
+    * Security of the Images , it should zero to none vulnerabilities as per your organization standard
 
 ```
 
